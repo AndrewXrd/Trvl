@@ -57,3 +57,12 @@
     transform: scale(1.1) translateY(-10px);
     filter: drop-shadow(0 10px 15px gray);
 }
+
+@media screen and (max-width: 960px) {
+    .card-item {
+        width: 90%;
+        max-width: 400px;
+        margin: 20px auto;
+        display: block;
+    }
+}
